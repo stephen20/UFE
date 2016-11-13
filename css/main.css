@@ -1,0 +1,436 @@
+	      body, html{
+	        width: 100%;
+	        height: 100%;
+	        min-width: 1200px;
+	      }
+	      #footer {
+	      	position: relative;
+	      	bottom: 200px;
+	        height: 80px;
+	      }
+	      #page-head{
+	      	font-family: Cambria, Georgia, serif;
+	      	position: relative;
+	      	top: 100px;
+	      	padding-top: 20px;
+	      	text-align: center;
+	      	color: WHITE;
+	      }
+	      #line1{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 23%;
+	      }
+	      #line2{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 57%;
+	      }
+	      #line1w{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 15%;
+	      }
+	      #line2w{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 65%;
+	      }
+	      #line1s{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 12%;
+	      }
+	      #line2s{
+	      	border-bottom: solid;
+	      	border-width: 1px;
+	      	width: 20%;
+	      	height: 1px;
+	      	position: absolute;
+	      	bottom: 20px;
+	      	left: 68%;
+	      }
+	      #excite{
+	      	font-family: Georgia, serif;
+	      	position: absolute;
+	      	top: 50%;
+	      	font-size: 70px;
+	      	color: BLACK;
+	      	font-weight: BOLD;
+	      	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       		-moz-animation: fadein 2s; /* Firefox < 16 */
+        	-ms-animation: fadein 2s; /* Internet Explorer */
+         	-o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+	      }
+	      #innovate{
+	      	font-family: Georgia, serif;
+	      	position: absolute;
+	      	top: 50%;
+	      	left: 315px;
+	      	font-size: 70px;
+	      	color: BLACK;
+	      	font-weight: BOLD;
+	      	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       		-moz-animation: fadein 5s; /* Firefox < 16 */
+        	-ms-animation: fadein 5s; /* Internet Explorer */
+         	-o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+	      }
+	      #wordsBg{
+	      	position: relative;
+	      	top: 65%;
+	      	margin-left: 50px;
+	      	height: 70px;
+	      	width: 1100px;
+	      	opacity: .80;
+	      	z-index: 2;
+	      	background-color: GREY;
+    		box-shadow: 0 0 30px 20px GREY;
+    		-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       		-moz-animation: fadein 2s; /* Firefox < 16 */
+        	-ms-animation: fadein 2s; /* Internet Explorer */
+         	-o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+	      }
+	      #create{
+	      	font-family: Georgia, serif;
+	      	position: absolute;
+	      	left: 755px;
+	      	top: 50%;
+	      	font-size: 70px;
+	      	color: BLACK;
+	      	font-weight: BOLD;
+	      	-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+       		-moz-animation: fadein 8s; /* Firefox < 16 */
+        	-ms-animation: fadein 8s; /* Internet Explorer */
+         	-o-animation: fadein 8s; /* Opera < 12.1 */
+            animation: fadein 8s;
+	      }
+	      #logo{
+	      	position: absolute;
+	      	left: 45%;
+	      	height: 100px;
+	      	width : 200px;
+
+	      }
+	      .navbar-inner{
+	      	height: 100px;
+	      	width: 100%;
+	      }
+	      .nav-collapse{
+	      	position: relative;
+	      	bottom:42px;
+	      	width: 100%;
+	      }
+	      #aboutUs{
+	      	color: WHITE;
+	      	width : 30%;
+	      	font-size: 120%;
+	      	position: relative;
+	      	left: 15%;
+	      	bottom: 350px;
+	      }
+	      #aboutPic{
+	      	position: relative;
+	      	top: 130px;
+	      	left: 50%;
+	      }
+	      #socialGalCont{
+	      	max-height: 1050px;
+	      	overflow-x: hidden;
+	      	overflow-y: hidden; 
+	      }
+	      #sgal1{
+	      	position: relative;
+	      	left: 50px;
+	      	top: 100px;
+	      }
+	      #sgal2{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 154px;
+	      }
+	      #sgal3{
+	      	position: relative;
+	      	left: 790px;
+	      	bottom: 406px;
+	      }
+	      #sgal4{
+	      	position: relative;	
+	      	left: 50px; 
+	      	bottom: 390px;     
+	      }
+	      #sgal5{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 649px;
+	      }
+	      #sgal6{
+	      	position: relative;
+	      	left: 790px; 
+	      	bottom: 904px;
+	      }
+	      #sgal7{
+	      	position: relative;
+	      	left: 50px;
+	      	bottom: 900px;
+		  }
+	      #sgal8{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 1162px;
+	      }
+	      #sgal9{
+	      	position: relative;
+	      	left: 790px;
+	      	bottom: 1427px;
+	      }
+	      #wedGalCont{
+	      	max-height: 1300px;
+	      	overflow-x: hidden;
+	      	overflow-y: hidden;
+	      }
+	      #wgal1{
+	      	position: relative;
+	      	left: 50px;
+	      	top: 100px;
+	      }
+	      #wgal2{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 160px;
+	      }
+	      #wgal3{
+	      	position: relative;
+	      	left: 790px;
+	      	bottom: 415px;
+	      }
+	      #wgal4{
+	      	position: relative;	
+	      	left: 50px; 
+	      	bottom: 400px;     
+	      }
+	      #wgal5{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 659px;
+	      }
+	      #wgal6{
+	      	position: relative;
+	      	left: 790px; 
+	      	bottom: 914px;
+	      }
+	      #wgal7{
+	      	position: relative;
+	      	left: 50px;
+	      	bottom: 908px;
+		  }
+	      #wgal8{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 1162px;
+	      }
+	      #wgal9{
+	      	position: relative;
+	      	left: 790px;
+	      	bottom: 1413px;
+	      }
+	      #wgal10{
+	      	position: relative;
+	      	left: 50px;
+	      	bottom: 1405px;
+	      }
+	      #wgal11{
+	      	position: relative;
+	      	left: 420px;
+	      	bottom: 1670px;
+	      }
+	      #wgal12{
+	      	position: relative;
+	      	left: 790px;
+	      	bottom: 1928px;
+	      }
+	      .page-header{
+	      	position: relative;
+	      	top: 60px;
+	      }
+	      #contactForm{
+	   		position: relative;
+	   		color: WHITE;
+	   		bottom: 292px;
+	   		left:50%;
+	   		width: 500px;
+	      }
+	      .nav{
+	      	width: 100%;
+	      }
+	      #nav1{
+	      	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	      	font-size: 200%;
+	      	position: absolute;
+	      	left: 10%;
+	      	margin-top: 35px;
+
+	      }
+	      #nav2{
+	      	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	      	position: absolute;
+	      	left: 30%;
+	      	margin-top: 35px;
+	      	width: 200px;
+	      	font-size: 200%;
+	      }
+	      #nav3{
+	      	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	      	position: absolute;
+	      	left: 60%;
+	      	margin-top: 35px;
+	      	width: 200px;
+	      	font-size: 200%;
+	      }
+	      #nav4{
+	      	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	      	position: absolute;
+	      	left: 75%;
+	      	margin-top: 35px;
+	      	width: 200px;
+	      	font-size: 200%;
+	      }
+	      #contactCon{
+	      	max-height: 970px;
+	      	overflow-y: hidden;
+	      	overflow-x: hidden;  
+	      }
+	      #contactUs{
+	      	text-align: center;
+	      	position: relative;
+	      	top: 635px;
+	      	right: 35px;
+	      	color: WHITE;
+	      	font-weight: BOLD;
+	      }
+	      #contactPic{
+	      	position: relative;
+	      	left: 290px;
+	      	bottom: 330px;
+	      }
+	      #seperator{
+	      	position: relative;
+	      	border-left: solid;
+	      	border-color: WHITE;
+	      	border-width: 1px;
+	      	height:280px;
+	      	width: 1px;
+	      	left: 570px;
+	      	top: 630px;
+	      	z-index: 10;
+	      }
+	      #contactInfo{
+	      	position: relative;
+	      	top:375px;
+	      	right: 120px;
+	      	color: WHITE;
+	      	text-align: center;
+	      }
+	      /* Lastly, apply responsive CSS fixes as necessary */
+	      @media (max-width: 767px) {
+	        #footer {
+	        margin-left: -20px;
+	        margin-right: -20px;
+	        padding-left: 20px;
+	        padding-right: 20px;
+	        }
+	    }
+	    @keyframes fadein {
+    		from { opacity: 0; }
+    		to   { opacity: .8; }
+			}		
+		  @-moz-keyframes fadein {
+		    from { opacity: 0; }
+		    to   { opacity: .8; }
+		   }
+		@-webkit-keyframes fadein {
+		    from { opacity: 0; }
+		    to   { opacity: .8; }
+		}
+		@-ms-keyframes fadein {
+		    from { opacity: 0; }
+		    to   { opacity: .8; }
+		}
+		@-o-keyframes fadein {
+		    from { opacity: 0; }
+		    to   { opacity: .8; }
+		}
+		#name{
+			position: relative;
+			left:135px;
+		}
+		#email{
+			position: relative;
+			left:82px;
+		}
+		#datepicker{
+			position: relative;
+			left: 109px;
+		}
+		#message{
+			position: relative;
+			left: 120px;
+		}
+		#submit{
+			position: relative;
+			left: 130px;
+			width: 100px;
+		}
+		#errors{
+			color: RED;
+		}
+		#aboutSocial{
+			position: relative;
+			left: 100px;
+			width: 500px;
+		}
+		#contactSocial{
+			position: relative;
+			left: 310px;
+			bottom: 100px;
+		}
+		#submitPic{
+			position: relative;
+			top: 100px;
+			left: 250px;
+		}
+		#confirmP{
+			position: relative;
+			top: 100px;
+			left: 225px;
+		}
+		#submitSocial{
+			position: relative;
+			top: 100px;
+			left: 450px;
+		}
+
+	      
+
